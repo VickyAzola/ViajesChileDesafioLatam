@@ -12,7 +12,9 @@
 
 ## Descripción
 
-Viajes Chile es una página web creada para ofrecer información sobre destinos turísticos en Chile, mostrar los lugares más destacados y permitir a los usuarios contactarnos para más información. La página incluye una barra de navegación, un carrusel de imágenes, secciones informativas y un formulario de contacto.
+Viajes Chile es una página web creada para ofrecer información sobre destinos turísticos en Chile, mostrar los lugares más destacados y permitir a los usuarios poneese en contacto con los dueños para obtener más información. La página incluye una barra de navegación, un carrusel de imágenes, secciones informativas, un formulario de contacto y un footer con las redes sociales.
+
+[Revisa el resultado aqui](https://vickyazola.github.io/ViajesChileDesafioLatam/)
 
 ![Wireframe - 3](https://github.com/VickyAzola/ViajesChileDesafioLatam/assets/116470398/738bd10a-a9c7-46df-846a-bc212414510f)
 
@@ -45,8 +47,19 @@ ViajesChileDesafioLatam/
 - **HTML5**: Para la estructura del sitio web.
 - **CSS**: Para el diseño y la presentación del sitio web.
 - **Bootstrap 5.3.3**: Framework CSS para facilitar el diseño responsivo y componentes predefinidos.
-- **Font Awesome**: Biblioteca de iconos.
-- **Google Fonts**: Biblioteca de fuentes de texto.
+- **Font Awesome**: Biblioteca de iconos. Se utilizaron los iconos:
+    ```html
+    <i class="fas fa-plane"></i>
+    <i class="fas fa-mountain"></i>
+    <i class="fas fa-route"></i>
+    <i class="fab fa-github"></i>
+    <i class="fab fa-linkedin"></i>
+    <i class="fab fa-twitter"></i>
+    <i class="fab fa-facebook"></i>
+    ```
+- **Google Fonts**: Biblioteca de fuentes de texto. Se utilizaron las fuentes:
+  - [Poppins](https://fonts.google.com/specimen/Poppins?query=Poppins)
+  - [Noto Sans](https://fonts.google.com/noto/specimen/Noto+Sans?query=Noto+Sans)
 - **jQuery 3.7.1.**: Para la interactividad y el manejo de eventos en el sitio web.
 
 ## Uso
