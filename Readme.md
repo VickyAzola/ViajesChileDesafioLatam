@@ -19,7 +19,7 @@ Viajes Chile es una página web creada para ofrecer información sobre destinos 
 ## Estructura del Proyecto
 
 ```plaintext
-viajes-chile/
+ViajesChileDesafioLatam/
 │
 ├── assets/
 │   ├── css/
@@ -63,11 +63,11 @@ viajes-chile/
 
 1. **Clonar el repositorio**:
     ```bash
-    git clone
+    git clone git@github.com:VickyAzola/ViajesChileDesafioLatam.git
     ```
 2. **Navega al directorio del proyecto**
     ```bash
-    cd viajes-chile
+    cd ViajesChileDesafioLatam
     ```
 3. Abrir `index.html` en tu navegadorpara ver el sitio web.
 
