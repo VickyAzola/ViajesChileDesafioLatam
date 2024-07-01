@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Victoria Azola">
+    <meta name="description" content="Página web de Viajes Chile">
+    <meta name="keywords" content="viajes, chile, natulareza">
+    <link rel="shortcut icon" href="assets/img/viajes.svg" type="image/svg">
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Bottstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/ea14289481.js" crossorigin="anonymous"></script>
+    <title>Viajes Chile</title>
+</head>
+<body>
+    <header>
+        <!-- Navbar -->
+        <nav data-bs-theme="dark" class="bg-none navbar navbar-expand-lg ps-3 pe-2 px-lg-5 py-2">
+            <div class="container">
+
+                <a class="navbar-brand d-flex align-items-center gap-2" href="#">
+                    <img src="assets/img/viajes.svg" width="35" alt="Logo" >
+                    Viajes Chile
+                </a>
+
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i class="fas fa-bars text-white"></i>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end mt-3 mt-lg-0"
+                    id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0 text-center">
+                        <li class="nav-item">
+                            <a
+                                class="nav-link"
+                                aria-current="page"
+                                href="#">
+                                Inicio
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"
+                                href="#quienesSomos">Quienes Somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"
+                                href="#destacados">Destacados</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"
+                                href="#contacto">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+
+        <!-- Carousel hero section -->
+        <div id="carouselExample" class="carousel slide carousel-fade" data-bs-ride="carousel" >
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+
+    <main class="bg-black text-white">
+        <div class="container">
+            <div class="row">
+
+            <!-- Quienes somos section -->
+                <section class="px-5 d-none d-md-block">
+                    <h1 id="quienesSomos" class="text-center fs-2 border-bottom mt-5 pb-3">¿QUIENES SOMOS?</h1>
+                    <div class="row mt-5">
+
+                        <div class="col-md-4">
+                            <div class="icon-secion bg-info text-center mb-2">
+                                <i class="fas fa-plane fs-2 py-1"></i>
+                            </div>
+                            <p class="content">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus earum ea repellat esse magnam, minus saepe dignissimos iste libero labore temporibus similique, expedita sequi a distinctio omnis incidunt, nihil ratione.
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus earum ea repellat esse magnam, minus saepe dignissimos iste libero labore temporibus similique, expedita sequi a distinctio omnis incidunt, nihil ratione.
+                            </p>
+                        </div>
+
+                        <div class="col-md-4">
+                            <p class="content mb-2">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus earum ea repellat esse magnam, minus saepe dignissimos iste libero labore temporibus similique, expedita sequi a distinctio omnis incidunt, nihil ratione.
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus earum ea repellat esse magnam, minus saepe dignissimos iste libero labore temporibus similique, expedita sequi a distinctio omnis incidunt, nihil ratione.
+                            </p>
+                            <div class="icon-secion bg-info text-center">
+                                <i class="fas fa-mountain fs-2 py-1"></i>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="icon-secion bg-info text-center mb-2">
+                                <i class="fas fa-route fs-2 py-1"></i>
+                            </div>
+                            <p class="content">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus earum ea repellat esse magnam, minus saepe dignissimos iste libero labore temporibus similique, expedita sequi a distinctio omnis incidunt, nihil ratione.
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus earum ea repellat esse magnam, minus saepe dignissimos iste libero labore temporibus similique, expedita sequi a distinctio omnis incidunt, nihil ratione.
+                            </p>
+                        </div>
+
+                    </div>
+                </section>
+
+            <!-- Cards -->
+                <section class="px-5">
+                    <h2 id="destacados" class="mt-5 pb-3 text-center fs-2 border-bottom">DESTACADOS</h2>
+                    <div class="row mt-5">
+                        <div class="col-12 col-md-6 col-lg-3 mb-4" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <div class="card mx-auto bg-info text-white" style="max-width: 19rem;">
+                                <img src="assets/img/card1.jpg" class="card-img-top" alt="">
+                                <div class="card-body">
+                                    <h3 class="card-title fs-5">Mus enim elementum dignissim</h3>
+                                    <p class="card-text">Mus enim elementum dignissim class eleifend justo, ut nunc magnis est vulputate nostra, blandit erat luctus faucibus orci.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6 col-lg-3 mb-4" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <div class="card mx-auto bg-info text-white" style="max-width: 19rem;">
+                                <img src="assets/img/card2edited.jpg" class="card-img-top" alt="">
+                                <div class="card-body">
+                                    <h3 class="card-title fs-5">Mus enim elementum dignissim</h3>
+                                    <p class="card-text">Mus enim elementum dignissim class eleifend justo, ut nunc magnis est vulputate nostra, blandit erat luctus faucibus orci.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6 col-lg-3 mb-4" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <div class="card mx-auto bg-info text-white" style="max-width: 19rem;">
+                                <img src="assets/img/card3.jpg" class="card-img-top" alt="">
+                                <div class="card-body">
+                                    <h3 class="card-title fs-5">Mus enim elementum dignissim</h3>
+                                    <p class="card-text">Mus enim elementum dignissim class eleifend justo, ut nunc magnis est vulputate nostra, blandit erat luctus faucibus orci.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6 col-lg-3 mb-5" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <div class="card mx-auto bg-info text-white" style="max-width: 19rem;">
+                                <img src="assets/img/card4.jpg" class="card-img-top" alt="">
+                                <div class="card-body">
+                                    <h3 class="card-title fs-5">Mus enim elementum dignissim</h3>
+                                    <p class="card-text">Mus enim elementum dignissim class eleifend justo, ut nunc magnis est vulputate nostra, blandit erat luctus faucibus orci.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+
+            <!-- Form -->
+                <form class="mx-auto mb-5 px-5">
+                    <h4 id="contacto" class="mt-5 pb-3 mb-5 fs-2 text-center border-bottom">CONTACTO</h4>
+                    <div class="mb-4">
+                        <label for="name" class="form-label fw-bold text-form-color">Nombre</label>
+                        <input 
+                            type="text" 
+                            class="form-control py-2"
+                            id="name"
+                            placeholder="Nombre"
+                            required>
+                    </div>
+        
+                    <div class="mb-4">
+                        <label for="email" class="form-label fw-bold text-form-color">Correo Electrónico</label>
+                        <input 
+                            type="email" 
+                            class="form-control py-2"
+                            id="email"
+                            placeholder="Correo Electrónico"
+                            required>
+                    </div>
+        
+                    <div class="mb-4">
+                        <label for="message" class="form-label fw-bold text-form-color">Mensaje</label>
+                        <textarea 
+                            class="form-control" 
+                            id="message" 
+                            value="message"
+                            placeholder="Escribe aqui tu mensaje">
+                        </textarea>
+                    </div>
+                    <button type="submit" class="btn btn-info text-white px-4">Enviar</button>
+                    </form>
+
+            <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title text-black fs-5" id="exampleModalLabel">Lo Sentimos</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body text-black">
+                                ¡Estamos trabajando para crear esta página a la breveded!
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <footer class="pt-4 pb-2 px-5 bg-info text-white">
+        <div class="container d-flex justify-content-between">
+            <p>VIAJES CHILE</p>
+            <ul class="list-unstyled d-flex gap-2">
+                <li>
+                    <a href="#" target="_blank"
+                        data-bs-toggle="tooltip" 
+                        data-bs-placement="top" 
+                        data-bs-custom-class="custom-tooltip" 
+                        data-bs-title="Github">
+                        <i class="fab fa-github fs-4 text-white"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" target="_blank"
+                        data-bs-toggle="tooltip" 
+                        data-bs-placement="top" 
+                        data-bs-custom-class="custom-tooltip" 
+                        data-bs-title="Linkedin">
+                        <i class="fab fa-linkedin fs-4 text-white"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" target="_blank"
+                        data-bs-toggle="tooltip" 
+                        data-bs-placement="top" 
+                        data-bs-custom-class="custom-tooltip" 
+                        data-bs-title="Twitter">
+                        <i class="fab fa-twitter fs-4 text-white"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" target="_blank"
+                        data-bs-toggle="tooltip" 
+                        data-bs-placement="top" 
+                        data-bs-custom-class="custom-tooltip" 
+                        data-bs-title="Facebook">
+                        <i class="fab fa-facebook fs-4 text-white"></i>
+                    </a>
+                </li>
+            </ul>           
+        </div>
+    </footer>
+
+    <!-- Bottstrap Js -->
+    <script 
+        src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" 
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" 
+        crossorigin="anonymous"
+    >
+    </script>
+    <script 
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" 
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" 
+        crossorigin="anonymous"
+    >
+    </script>
+    <!-- JQuery -->
+    <script 
+        src="https://code.jquery.com/jquery-3.7.1.js" 
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" 
+        crossorigin="anonymous"
+    >
+    </script>
+    <!-- scripts.js -->
+    <script src="assets/js/scripts.js"></script>
+</body>
+</html>
