@@ -7,12 +7,14 @@
 - [Tecnologías Utilizadas](#tecnologías-utilizadas)
 - [Uso](#uso)
 - [Instalación](#instalación)
-- [Contribució](#contribución)
+- [Contribución](#contribución)
 - [Autores](#autores)
 
 ## Descripción
 
 Viajes Chile es una página web creada para ofrecer información sobre destinos turísticos en Chile, mostrar los lugares más destacados y permitir a los usuarios contactarnos para más información. La página incluye una barra de navegación, un carrusel de imágenes, secciones informativas y un formulario de contacto.
+
+![Wireframe - 3](https://github.com/VickyAzola/ViajesChileDesafioLatam/assets/116470398/738bd10a-a9c7-46df-846a-bc212414510f)
 
 ## Estructura del Proyecto
 
